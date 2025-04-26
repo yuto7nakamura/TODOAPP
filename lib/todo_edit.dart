@@ -402,3 +402,4 @@ class HexagonClipper extends CustomClipper<Path> {
 }
 
 // 六角形終わり
+// git pushできた
