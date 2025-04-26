@@ -390,13 +390,13 @@ class HexagonClipper extends CustomClipper<Path> {
     path.lineTo(width * 0.75, height); // 下の右側の点
     path.lineTo(width * 0.25, height); // 下の左側の点
     path.lineTo(0, height * 0.5); // 左側の中間点
-    path.close(); // パスを閉じる
+    path.close(); 
 
     return path;
   }
 
   @override
   bool shouldReclip(CustomClipper<Path> oldClipper) {
-    return false; // 再クリップの必要がない場合
+    return false;
   }
 }
